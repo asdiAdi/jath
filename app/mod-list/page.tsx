@@ -189,7 +189,6 @@ export default function Page() {
               description="Add enchantment to balance veinminer (Requires bookshelf mod, install manually)"
             />
           </li>
-
           <li>
             <DownloadLink
               title="Sophisticated Backpacks (Unoffical Fabric port)"
@@ -213,13 +212,6 @@ export default function Page() {
           </li>
           <li>
             <DownloadLink
-              title="Forge Config API Port"
-              link="https://modrinth.com/mod/forge-config-api-port"
-              description="Backpack and Storage solution dependency"
-            />
-          </li>
-          <li>
-            <DownloadLink
               title="Immersive Aircraft"
               link="https://modrinth.com/mod/immersive-aircraft"
               description="Add aircraft mod"
@@ -237,6 +229,360 @@ export default function Page() {
               title="Small Ships"
               link="https://modrinth.com/mod/small-ships"
               description="Add ship mod"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Better Combat"
+              link="https://modrinth.com/mod/better-combat"
+              description="Combat Animations"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Combat Roll"
+              link="https://modrinth.com/mod/combat-roll"
+              description="Press R to roll"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Runes"
+              link="https://modrinth.com/mod/runes"
+              description="Add Runes for magic"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Wizards"
+              link="https://modrinth.com/mod/wizards"
+              description="Add Wizard Items"
+            />
+          </li>
+
+          <li>
+            <DownloadLink
+              title="Paladins and Priests"
+              link="https://modrinth.com/mod/paladins-and-priests"
+              description="Add Paladins and Priests Items"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Archers"
+              link="https://modrinth.com/mod/archers"
+              description="Add Archer Items"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Rouges and Warriors"
+              link="https://modrinth.com/mod/rogues-and-warriors"
+              description="Add Rouges and Warriors Item"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Trinkets"
+              link="https://modrinth.com/mod/trinkets"
+              description="Add Trinkets"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Jewelry"
+              link="https://modrinth.com/mod/jewelry"
+              description="Add Jewelry"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Natures Compass"
+              link="https://modrinth.com/mod/natures-compass"
+              description="Find Biomes"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Explorers Compass"
+              link="https://modrinth.com/mod/explorers-compass"
+              description="Find Structures"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Zombie Awareness"
+              link="https://modrinth.com/mod/zombie-awareness"
+              description="Add zombie AI"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="AdventureZ"
+              link="https://modrinth.com/mod/adventurez"
+              description="Add more enemies"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Voidz"
+              link="https://modrinth.com/mod/voidz"
+              description="Add more enemies"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Simple Voice Chat"
+              link="https://modrinth.com/plugin/simple-voice-chat"
+              description="Add proximity voice chat"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="FTB Essentials"
+              link="https://www.curseforge.com/minecraft/mc-mods/ftb-essentials"
+              customLink
+              description="Add more commands"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Tectonic"
+              link="https://modrinth.com/datapack/tectonic"
+              description="Large mountains"
+            />
+          </li>
+
+          <li>
+            <DownloadLink
+              title="Terralith"
+              link="https://modrinth.com/datapack/terralith"
+              description="More Biomes"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Nether Fortresses"
+              link="https://modrinth.com/mod/yungs-better-nether-fortresses"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Dungeon"
+              link="https://modrinth.com/mod/yungs-better-dungeons"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Mineshafts"
+              link="https://modrinth.com/mod/yungs-better-mineshafts"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Ocean Monuments"
+              link="https://modrinth.com/mod/yungs-better-ocean-monuments"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Jungle Temples"
+              link="https://modrinth.com/mod/yungs-better-jungle-temples"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Strongholds"
+              link="https://modrinth.com/mod/yungs-better-strongholds"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Witch Huts"
+              link="https://modrinth.com/mod/yungs-better-witch-huts"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better End Island"
+              link="https://modrinth.com/mod/yungs-better-end-island"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Bridges"
+              link="https://modrinth.com/mod/yungs-bridges"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Desert Temples"
+              link="https://modrinth.com/mod/yungs-better-desert-temples"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Extras"
+              link="https://modrinth.com/mod/yungs-extras"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Better Nether"
+              link="https://modrinth.com/mod/betternether"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Nullscape"
+              link="https://modrinth.com/datapack/nullscape"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Better End"
+              link="https://modrinth.com/mod/betterend"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="CT Overhaul Village"
+              link="https://modrinth.com/mod/ct-overhaul-village"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Better Village"
+              link="https://modrinth.com/mod/better-village"
+              description="Structure revamp"
+            />
+          </li>
+        </ul>
+
+        <h4 className="text-lg font-semibold pl-4">
+          API - required to play in server, game needs this to run gamestate
+          mods
+        </h4>
+        <ul className="pl-12 list-disc font-normal flex gap-2 flex-col">
+          <li>
+            <DownloadLink
+              title="Forge Config API Port"
+              link="https://modrinth.com/mod/forge-config-api-port"
+            />
+          </li>
+          <li>
+            <DownloadLink title="Balm" link="https://modrinth.com/mod/balm" />
+          </li>
+          <li>
+            <DownloadLink
+              title="Player Animator"
+              link="https://modrinth.com/mod/playeranimator"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Azure Lib"
+              link="https://modrinth.com/mod/azurelib"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Spell Engine"
+              link="https://modrinth.com/mod/spell-engine"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Spell Power"
+              link="https://modrinth.com/mod/spell-power"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Structure Pool API"
+              link="https://modrinth.com/mod/structure-pool-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Bundle"
+              link="https://modrinth.com/mod/bundle-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Ranged Weapon"
+              link="https://modrinth.com/mod/ranged-weapon-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Coroutil"
+              link="https://modrinth.com/mod/coroutil"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="FTB Library"
+              link="https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric"
+              customLink
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Architectury"
+              link="https://modrinth.com/mod/architectury-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs API"
+              link="https://modrinth.com/mod/yungs-api"
+            />
+          </li>
+          <li>
+            <DownloadLink title="BCLib" link="https://modrinth.com/mod/bclib" />
+          </li>
+          <li>
+            <DownloadLink
+              title="Library Ferret"
+              link="https://modrinth.com/mod/library-ferret"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Lithostitched"
+              link="https://modrinth.com/mod/lithostitched"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="WorldWeaver"
+              link="https://modrinth.com/mod/worldweaver"
+            />
+          </li>
+          <li>
+            <DownloadLink title="Silk" link="https://modrinth.com/mod/silk" />
+          </li>
+          <li>
+            <DownloadLink
+              title="Shield API"
+              link="https://modrinth.com/mod/shield-api"
             />
           </li>
         </ul>
@@ -361,20 +707,6 @@ export default function Page() {
                   description="Show saturation and exhaustion"
                 />
               </li>
-              {/*<li>
-                <DownloadLink
-                  title="Inventory Profiles Next"
-                  link="https://modrinth.com/mod/inventory-profiles-next"
-                  description="Add Inventory shorcut (Warning: a bit bloated)"
-                />
-              </li>
-              <li>
-                <DownloadLink
-                  title="Chest Tracker"
-                  link="https://modrinth.com/mod/chest-tracker"
-                  description="Search chest inventory"
-                />
-              </li>*/}
               <li>
                 <DownloadLink
                   title="Mouse Tweaks"
@@ -536,9 +868,23 @@ export default function Page() {
           </li>
           <li>
             <DownloadLink
-              title="Silk"
-              link="https://modrinth.com/mod/silk"
-              description="Veinminer API"
+              title="Sophisticated Backpacks (Unoffical Fabric port)"
+              link="https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)"
+              description="Backpack solution"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Sophisticated Storage (Unofficial Fabric port)"
+              link="https://modrinth.com/mod/sophisticated-storage-(unofficial-fabric-port)"
+              description="Storage Solution"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Sophisticated Core (Unofficial Fabric port)"
+              link="https://modrinth.com/mod/sophisticated-core-(unofficial-fabric-port)"
+              description="Backpack and Storage solution dependency"
             />
           </li>
           <li>
@@ -562,6 +908,246 @@ export default function Page() {
               description="Add ship mod"
             />
           </li>
+          <li>
+            <DownloadLink
+              title="Better Combat"
+              link="https://modrinth.com/mod/better-combat"
+              description="Combat Animations"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Combat Roll"
+              link="https://modrinth.com/mod/combat-roll"
+              description="Press R to roll"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Runes"
+              link="https://modrinth.com/mod/runes"
+              description="Add Runes for magic"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Wizards"
+              link="https://modrinth.com/mod/wizards"
+              description="Add Wizard Items"
+            />
+          </li>
+
+          <li>
+            <DownloadLink
+              title="Paladins and Priests"
+              link="https://modrinth.com/mod/paladins-and-priests"
+              description="Add Paladins and Priests Items"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Archers"
+              link="https://modrinth.com/mod/archers"
+              description="Add Archer Items"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Rouges and Warriors"
+              link="https://modrinth.com/mod/rogues-and-warriors"
+              description="Add Rouges and Warriors Item"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Trinkets"
+              link="https://modrinth.com/mod/trinkets"
+              description="Add Trinkets"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Jewelry"
+              link="https://modrinth.com/mod/jewelry"
+              description="Add Jewelry"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Natures Compass"
+              link="https://modrinth.com/mod/natures-compass"
+              description="Find Biomes"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Explorers Compass"
+              link="https://modrinth.com/mod/explorers-compass"
+              description="Find Structures"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Zombie Awareness"
+              link="https://modrinth.com/mod/zombie-awareness"
+              description="Add zombie AI"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="AdventureZ"
+              link="https://modrinth.com/mod/adventurez"
+              description="Add more enemies"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Voidz"
+              link="https://modrinth.com/mod/voidz"
+              description="Add more enemies"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Simple Voice Chat"
+              link="https://modrinth.com/plugin/simple-voice-chat"
+              description="Add proximity voice chat"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="FTB Essentials"
+              link="https://www.curseforge.com/minecraft/mc-mods/ftb-essentials"
+              customLink
+              description="Add more commands"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Tectonic"
+              link="https://modrinth.com/datapack/tectonic"
+              description="Large mountains"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Terralith"
+              link="https://modrinth.com/datapack/terralith"
+              description="More Biomes"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Nether Fortresses"
+              link="https://modrinth.com/mod/yungs-better-nether-fortresses"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Dungeon"
+              link="https://modrinth.com/mod/yungs-better-dungeons"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Mineshafts"
+              link="https://modrinth.com/mod/yungs-better-mineshafts"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Ocean Monuments"
+              link="https://modrinth.com/mod/yungs-better-ocean-monuments"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Jungle Temples"
+              link="https://modrinth.com/mod/yungs-better-jungle-temples"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Strongholds"
+              link="https://modrinth.com/mod/yungs-better-strongholds"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Witch Huts"
+              link="https://modrinth.com/mod/yungs-better-witch-huts"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better End Island"
+              link="https://modrinth.com/mod/yungs-better-end-island"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Bridges"
+              link="https://modrinth.com/mod/yungs-bridges"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Better Desert Temples"
+              link="https://modrinth.com/mod/yungs-better-desert-temples"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs Extras"
+              link="https://modrinth.com/mod/yungs-extras"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Better Nether"
+              link="https://modrinth.com/mod/betternether"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Nullscape"
+              link="https://modrinth.com/datapack/nullscape"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Better End"
+              link="https://modrinth.com/mod/betterend"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="CT Overhaul Village"
+              link="https://modrinth.com/mod/ct-overhaul-village"
+              description="Structure revamp"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Better Village"
+              link="https://modrinth.com/mod/better-village"
+              description="Structure revamp"
+            />
+          </li>
         </ul>
 
         <h4 className="text-lg font-semibold pl-4 mt-4">Support</h4>
@@ -574,62 +1160,138 @@ export default function Page() {
               description={`Support fast lod rendering for the client, just put the client jar in the server mod, run "/dh pregen"`}
             />
           </li>
-
           <li>
-            <DownloadLink
-              title="Balm"
-              link="https://modrinth.com/mod/balm"
-              description="JourneyMap Dependency"
-            />
+            <DownloadLink title="Balm" link="https://modrinth.com/mod/balm" />
           </li>
-
           <li>
             <DownloadLink
               title="Xaero's Worldmap"
               link="https://modrinth.com/mod/xaeros-world-map"
-              description="It's just here to disable some settings"
             />
           </li>
           <li>
             <DownloadLink
               title="Xaero's Worldmap"
               link="https://modrinth.com/mod/xaeros-minimap"
-              description="It's just here to disable some settings"
             />
           </li>
           <li>
-            <DownloadLink
-              title="JEI"
-              link="https://modrinth.com/mod/jei"
-              description="Recipe Viewer, Enable some features"
-            />
+            <DownloadLink title="JEI" link="https://modrinth.com/mod/jei" />
           </li>
           <li>
-            <DownloadLink
-              title="EMI"
-              link="https://modrinth.com/mod/emi"
-              description="Recipe Viewer, Enable some features"
-            />
+            <DownloadLink title="EMI" link="https://modrinth.com/mod/emi" />
           </li>
           <li>
             <DownloadLink
               title="Polymorph"
               link="https://modrinth.com/mod/polymorph"
-              description={`Add support for "/polymorph conflicts" command`}
             />
           </li>
           <li>
-            <DownloadLink
-              title="Jade"
-              link="https://modrinth.com/mod/jade"
-              description="Add support server-side"
-            />
+            <DownloadLink title="Jade" link="https://modrinth.com/mod/jade" />
           </li>
           <li>
             <DownloadLink
               title="AppleSkin"
               link="https://modrinth.com/mod/appleskin"
-              description="Add support server-side"
+            />
+          </li>
+
+          <li>
+            <DownloadLink
+              title="Player Animator"
+              link="https://modrinth.com/mod/playeranimator"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Azure Lib"
+              link="https://modrinth.com/mod/azurelib"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Spell Engine"
+              link="https://modrinth.com/mod/spell-engine"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Spell Power"
+              link="https://modrinth.com/mod/spell-power"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Structure Pool API"
+              link="https://modrinth.com/mod/structure-pool-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Bundle"
+              link="https://modrinth.com/mod/bundle-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Ranged Weapon"
+              link="https://modrinth.com/mod/ranged-weapon-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Coroutil"
+              link="https://modrinth.com/mod/coroutil"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="FTB Library"
+              link="https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric"
+              customLink
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Architectury"
+              link="https://modrinth.com/mod/architectury-api"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Yungs API"
+              link="https://modrinth.com/mod/yungs-api"
+            />
+          </li>
+          <li>
+            <DownloadLink title="BCLib" link="https://modrinth.com/mod/bclib" />
+          </li>
+          <li>
+            <DownloadLink
+              title="Library Ferret"
+              link="https://modrinth.com/mod/library-ferret"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="Lithostitched"
+              link="https://modrinth.com/mod/lithostitched"
+            />
+          </li>
+          <li>
+            <DownloadLink
+              title="WorldWeaver"
+              link="https://modrinth.com/mod/worldweaver"
+            />
+          </li>
+          <li>
+            <DownloadLink title="Silk" link="https://modrinth.com/mod/silk" />
+          </li>
+          <li>
+            <DownloadLink
+              title="Shield API"
+              link="https://modrinth.com/mod/shield-api"
             />
           </li>
         </ul>
@@ -637,77 +1299,3 @@ export default function Page() {
     </div>
   );
 }
-
-//https://modrinth.com/mod/better-combat
-//https://modrinth.com/mod/playeranimator
-//https://modrinth.com/mod/combat-roll
-
-// wizard
-//https://modrinth.com/mod/azurelib
-//https://modrinth.com/mod/runes
-// https://modrinth.com/mod/spell-engine
-// https://modrinth.com/mod/spell-power
-// https://modrinth.com/mod/structure-pool-api
-// https://modrinth.com/mod/wizards
-
-// paladins & priests
-//https://modrinth.com/mod/shield-api
-// https://modrinth.com/mod/paladins-and-priests
-
-// archer
-// https://modrinth.com/mod/bundle-api
-// https://modrinth.com/mod/ranged-weapon-api
-// https://modrinth.com/mod/archers
-
-// https://modrinth.com/mod/rogues-and-warriors
-
-// https://modrinth.com/mod/trinkets
-// https://modrinth.com/mod/jewelry
-
-//if you have an error installing make sure you have these installed
-
-// https://modrinth.com/mod/explorers-compass
-// https://modrinth.com/mod/natures-compass
-
-// https://modrinth.com/mod/zombie-awareness
-// https://modrinth.com/mod/coroutil
-
-//https://modrinth.com/mod/adventurez
-//modrinth.com/mod/voidz
-
-//https://modrinth.com/plugin/simple-voice-chat
-
-// world gen
-// https://modrinth.com/datapack/tectonic
-// https://modrinth.com/mod/lithostitched
-//https://modrinth.com/datapack/terralith
-
-// https://modrinth.com/mod/yungs-api
-//https://modrinth.com/mod/yungs-better-nether-fortresses
-// https://modrinth.com/mod/yungs-better-dungeons
-// https://modrinth.com/mod/yungs-better-mineshafts
-//https://modrinth.com/mod/yungs-better-ocean-monuments
-//https://modrinth.com/mod/yungs-better-jungle-temples
-//https://modrinth.com/mod/yungs-better-strongholds
-// https://modrinth.com/mod/yungs-better-witch-huts
-// https://modrinth.com/mod/yungs-better-end-island
-// https://modrinth.com/mod/yungs-bridges
-//https://modrinth.com/mod/yungs-better-desert-temples
-// https://modrinth.com/mod/yungs-extras
-
-// https://modrinth.com/mod/betternether
-// https://modrinth.com/mod/worldweaver
-// https://modrinth.com/mod/bclib
-// https://modrinth.com/mod/betterend
-
-//https://modrinth.com/datapack/nullscape
-
-//https://modrinth.com/mod/ct-overhaul-village
-// https://modrinth.com/mod/better-village
-// https://modrinth.com/mod/library-ferret
-
-//https://www.curseforge.com/minecraft/mc-mods/ftb-essentials
-//https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric
-// https://modrinth.com/mod/architectury-api
-
-///dh pregen start <dimension> <x> <z> <radius in chunks>

@@ -1,4 +1,5 @@
 // utils/fetchAllData.ts
+import { getUrl } from "@aws-amplify/storage";
 
 type GithubRelease = {
   prerelease: boolean;
@@ -11,9 +12,23 @@ type GithubRelease = {
   }[];
 }[];
 
-type CurseforgeRelease = {};
-
 export async function fetchAllLink(version?: string): Promise<CollatedData> {
+  const clientModpackLink = await getUrl({
+    path: "jath-world-1.0.0.mrpack",
+    options: {
+      bucket: "jath-world-bucket",
+      expiresIn: 300,
+    },
+  });
+
+  const serverModpackLink = await getUrl({
+    path: "jath-server-1.0.0.mrpack",
+    options: {
+      bucket: "jath-world-bucket",
+      expiresIn: 300,
+    },
+  });
+
   const manifestData = await fetch(
     "https://piston-meta.mojang.com/mc/game/version_manifest_v2.json",
   ).then((res) => res.json());
@@ -89,5 +104,7 @@ export async function fetchAllLink(version?: string): Promise<CollatedData> {
     fabricServerName: `fabric-server-mc.${latest.release}-loader.${fabricLoader[0].version}-launcher.${fabricInstaller[0].version}.jar`,
     fabricApiModLink: fabricApiMod,
     lithiumModLink: lithiumMod,
+    clientModpackLink: clientModpackLink ?? undefined,
+    serverModpackLink: serverModpackLink ?? undefined,
   };
 }

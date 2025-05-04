@@ -1,4 +1,6 @@
 "use client";
+import Code from "@/components/ui/code";
+import React from "react";
 
 export default function CodeBlock(props: {
   title: string;
@@ -8,16 +10,8 @@ export default function CodeBlock(props: {
   return (
     <div>
       <p>{title}</p>
-      <pre>
-        <code
-          onClick={(e) => {
-            const target = e.target as HTMLElement;
-            void navigator.clipboard.writeText(target.textContent || "");
-          }}
-          className="cursor-pointer pl-4"
-        >
-          {code}
-        </code>
+      <pre className="pl-4">
+        <Code>{code}</Code>
       </pre>
     </div>
   );

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function NavbarLayout() {
   return (
-    <nav className="w-full p-4 bg-white flex gap-4">
+    <nav className="w-full p-4  flex gap-4">
       <Button>
         <Link href="/">Home</Link>
       </Button>

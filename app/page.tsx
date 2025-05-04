@@ -1,76 +1,49 @@
 "use client";
 
-import { useState, useEffect } from "react";
 import { Amplify } from "aws-amplify";
 import outputs from "@/amplify_outputs.json";
-import { getUrl } from "@aws-amplify/storage";
 import { Button } from "@/components/ui/button";
+import Code from "@/components/ui/code";
+import { useLinkStore } from "@/stores/linkStore";
 
 Amplify.configure(outputs);
 
-// const { bucketName, region } = amplifyOutputs.storage;
-
-// const client = generateClient<Schema>();
-
 export default function App() {
-  const [linkToMrPack, setLinkToMrPack] = useState<any | null>(null);
-  const [linkToMrPackServer, setLinkToMrPackServer] = useState<any | null>(
-    null,
+  const { clientModpackLink, serverModpackLink } = useLinkStore(
+    (state) => state,
   );
-
-  useEffect(() => {
-    async function x() {
-      const linkToStorageFile = await getUrl({
-        path: "jath-world-1.0.0.mrpack",
-        options: {
-          bucket: "jath-world-bucket",
-          expiresIn: 300,
-        },
-      });
-
-      const linkToStorageFileServer = await getUrl({
-        path: "jath-server-1.0.0.mrpack",
-        options: {
-          bucket: "jath-world-bucket",
-          expiresIn: 300,
-        },
-      });
-
-      setLinkToMrPack(linkToStorageFile);
-      setLinkToMrPackServer(linkToStorageFileServer);
-      console.log(linkToStorageFile);
-    }
-    void x();
-  }, []);
 
   // return <Main/>
   return (
     <main>
+      <h2 className="text-xl font-semibold">Server Status</h2>
+
+      <h2 className="text-xl font-semibold">Download Minecraft</h2>
       <div className="flex flex-row gap-4 m-2">
-        <Button className="cursor-pointer" disabled={!linkToMrPack}>
-          {linkToMrPack ? (
+        <Button className="cursor-pointer" disabled={!clientModpackLink}>
+          {clientModpackLink ? (
             <a
-              href={linkToMrPack.url.toString()}
+              href={clientModpackLink.url.toString()}
               target="_blank"
               rel="noreferrer"
             >
-              Download Modpack
+              Client
             </a>
           ) : (
-            "Download Modpack"
+            "Client"
           )}
         </Button>
-        <Button className="cursor-pointer" disabled={!linkToMrPackServer}>
-          {linkToMrPack ? (
+        <Button className="cursor-pointer" disabled={!serverModpackLink}>
+          {serverModpackLink ? (
             <a
-              href={linkToMrPackServer.url.toString()}
+              href={serverModpackLink.url.toString()}
               target="_blank"
               rel="noreferrer"
             >
-              Download Modpack
+              Server
             </a>
           ) : (
-            "Download Modpack Server"
+            "Server"
           )}
         </Button>
       </div>
@@ -82,65 +55,24 @@ export default function App() {
         <li>PVP On</li>
         <li>Keep Inventory on Death</li>
         <li>Only 1 player required to skip night</li>
-        <li>Maximum World size of 16k x 16k blocks</li>
+        <li>
+          Maximum World size of 12k x 12k blocks or around 144000 block area
+        </li>
       </ul>
 
       <hr className="my-4" />
 
-      <h2 className="text-xl font-semibold">Command Block Cheats</h2>
-      <ul className="list-disc pl-4">
-        <li>Teleport to player or bases</li>
-        <li>Fly when building structures</li>
+      <h2 className="text-xl font-semibold">Allowed Cheats</h2>
+      <ul className="list-disc pl-4 flex gap-2 flex-col">
+        <li>
+          <Code>/spawn</Code> - Teleport to world spawn
+        </li>
+        <li>
+          <Code>{"/tpa <player>"}</Code> - Teleport to player
+        </li>
       </ul>
 
       <hr className="my-4" />
     </main>
   );
 }
-
-/*
-function Main() {
-  const [todos, setTodos] = useState<Array<Schema["Todo"]["type"]>>([]);
-
-  function listTodos() {
-    client.models.Todo.observeQuery().subscribe({
-      next: (data) => setTodos([...data.items]),
-    });
-  }
-
-  useEffect(() => {
-    listTodos();
-  }, []);
-
-  function createTodo() {
-    client.models.Todo.create({
-      content: window.prompt("Todo content"),
-    });
-  }
-
-  function deleteTodo(id: string) {
-    client.models.Todo.delete({ id });
-  }
-
-  return (
-    <main>
-      <h1>My todos</h1>
-      <button onClick={createTodo}>+ new</button>
-      <ul>
-        {todos.map((todo) => (
-          <li key={todo.id} onClick={() => deleteTodo(todo.id)}>
-            {todo.content}
-          </li>
-        ))}
-      </ul>
-      <div>
-        🥳 App successfully hosted. Try creating a new todo.
-        <br />
-        <a href="https://docs.amplify.aws/nextjs/start/quickstart/nextjs-app-router-client-components/">
-          Review next steps of this tutorial.
-        </a>
-      </div>
-    </main>
-  );
-}
- */

@@ -14,7 +14,7 @@ export default function Page() {
     <div>
       <h2 className="text-2xl font-bold">Setup/Commands etc...</h2>
       <h2 className="text-xl font-bold">
-        Note: Requires 16GB of memory R7i instance
+        Note: Requires atleast 2vCPU 8GB of memory or m7i.large instance
       </h2>
 
       <h3 className="text-xl font-bold mt-4">Vanilla Server Hardware</h3>
@@ -41,7 +41,7 @@ export default function Page() {
 
         <CodeBlock
           title="Initially Start Server"
-          code={`java -Xms8G -Xmx12G -jar ${vanillaServerName} --nogui`}
+          code={`java -Xms4G -Xmx6G -jar ${vanillaServerName} --nogui`}
         />
 
         <CodeBlock title="Edit EULA to TRUE" code="nano eula.txt" />
@@ -60,7 +60,7 @@ export default function Page() {
 
         <CodeBlock
           title="Start the Server"
-          code={`java -Xms8G -Xmx12G -jar ${vanillaServerName} --nogui`}
+          code={`java-Xms4G -Xmx6G -jar ${vanillaServerName} --nogui`}
         />
 
         <CodeBlock title="Add whitelists" code="whitelist add asdiadi" />
@@ -92,7 +92,7 @@ export default function Page() {
 
         <CodeBlock
           title="Initially Start Server"
-          code={`java -Xms8G -Xmx12G -jar ${fabricServerName} --nogui`}
+          code={`java -Xms4G -Xmx6G -jar ${fabricServerName} --nogui`}
         />
 
         <CodeBlock title="Edit EULA to TRUE" code="nano eula.txt" />
@@ -111,7 +111,7 @@ export default function Page() {
 
         <CodeBlock
           title="Start the Server"
-          code={`java -Xms8G -Xmx12G -jar ${fabricServerName} --nogui`}
+          code={`java -Xms4G -Xmx6G -jar ${fabricServerName} --nogui`}
         />
 
         <CodeBlock title="Add whitelists" code="whitelist add asdiadi" />
@@ -166,7 +166,7 @@ export default function Page() {
 
         <CodeBlock
           title="Start the Server"
-          code="java -Xms8G -Xmx12G -jar server.jar --nogui"
+          code="java -Xms4G -Xmx6G -jar server.jar --nogui"
         />
 
         <CodeBlock title="Add whitelists" code="whitelist add asdiadi" />

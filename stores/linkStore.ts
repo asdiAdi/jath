@@ -1,5 +1,6 @@
 import { create } from "zustand";
 import { fetchAllLink } from "@/lib/fetchAllLink";
+import { undefined } from "zod";
 
 export const useLinkStore = create<
   CollatedData & { fetchData: (version: string) => void }

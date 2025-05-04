@@ -31,6 +31,7 @@ function TitleToggle(props: {
 export default function Page() {
   const mcC = useOpen();
   const mcBg = useOpen();
+  const mcMisc = useOpen();
 
   return (
     <div>
@@ -42,6 +43,7 @@ export default function Page() {
           <CodeBlock title="Teleport" code="tp asdiadi kangkang" />
           <CodeBlock title="Add server permisssions" code="op asdiadi" />
           <CodeBlock title="stop server" code="stop" />
+          <CodeBlock title="Set worldborder" code="worldborder set 12000" />
         </div>
       )}
 
@@ -73,6 +75,16 @@ export default function Page() {
           <CodeBlock
             title="Kill a specific session by name"
             code="tmux kill-session -t session-name"
+          />
+        </div>
+      )}
+
+      <TitleToggle title="Misc" {...mcMisc} />
+      {mcMisc.isOpen && (
+        <div className="pl-4 flex gap-2 flex-col">
+          <CodeBlock
+            title="Pregenerate"
+            code="dh pregen start overworld 0 0 383"
           />
         </div>
       )}
